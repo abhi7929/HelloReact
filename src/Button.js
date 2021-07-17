@@ -1,8 +1,11 @@
 import React from "react"
-
+import "./style.css"
 const Button=({buttonText})=>{
     return(
-        <button className="button">{buttonText}</button>
+        <div className="content" style={{textAlign : "center"}}>
+            <button className="button">{buttonText}</button>
+        </div>
+        
     )
 }
 

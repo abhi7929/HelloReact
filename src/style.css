@@ -1,8 +1,36 @@
-body{
+body {
+    font-family: Arial;
+    margin: 0;
     background-color: aliceblue;
+  }
+
+  /* Header/Logo Title */
+.header {
+    padding: 60px;
+    text-align: center;
+    background:teal;
+    color: white;
+    font-size: 30px;
+  }
+
+  /* Page Content */
+.content {
+  padding:20px;
+}
+
+.button {
+  background-color: gray; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .button{
-    margin-right: 5px;
-    text-align: center;
+  border-radius: 8px;
 }
